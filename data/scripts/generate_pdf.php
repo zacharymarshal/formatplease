@@ -23,7 +23,7 @@ $data['Body'] = $markdown_parser->transformMarkdown($matches[2]);
 
 $xml = "
 <root>
-	<Name></Name>
+	<Name>{$data['Name']}</Name>
 	<Title>{$data['Title']}</Title>
 	<RunningHead>{$data['Running Head']}</RunningHead>
 	<School>{$data['School']}</School>
