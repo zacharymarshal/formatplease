@@ -1,0 +1,7 @@
+<?php
+
+return array(
+	'environment' => ENV_DEVELOPMENT,
+	'debug'       => true,
+	'base_uri'    => '',
+);

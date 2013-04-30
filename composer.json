@@ -1,0 +1,12 @@
+{
+	"autoload": {
+		"psr-0": {
+			"FormatPlease": "lib/"
+		}
+	},
+	"require": {
+		"sofadesign/limonade": "dev-master",
+		"mustangostang/spyc": "0.5.1",
+		"dflydev/markdown": "v1.0.2"
+	}
+}
