@@ -10,11 +10,37 @@ function configure()
 	option('env', $core_config['environment']);
 	option('debug', $core_config['debug']);
 	option('base_uri', $core_config['base_uri']);
+	option('session', 'formatplease');
+	option('signature', false);
+	error_layout('layouts/default.html.php');
+
+	set_exception_handler(function($e) {
+		error_handler_dispatcher($e->getCode(), $e->getMessage(), $e->getFile(), $e->getLine());
+	});
+
+	if (option('env') == ENV_PRODUCTION) {
+		
+		error_reporting(0);
+		ini_set('display_errors', 0);
+
+		$client = new Raven_Client($core_config['sentry_url']);
+		$error_handler = new Raven_ErrorHandler($client);
+		$error_handler->registerExceptionHandler();
+		option('sentry', $error_handler);
+	}
 }
 
 function before($route)
 {
 	layout('layouts/default.html.php');
+}
+
+function before_exit()
+{
+	if (option('env') == ENV_PRODUCTION) {
+		$sentry = option('sentry');
+		$sentry->handleFatalError();
+	}
 }
 
 dispatch('/', function() {

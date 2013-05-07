@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "cfdecee53cb4f6cb068b1dd6413a3c8e",
+    "hash": "9b6147c18ee8cadbb2d3415637d16dd9",
     "packages": [
         {
             "name": "dflydev/markdown",
@@ -105,6 +105,53 @@
                 "yml"
             ],
             "time": "2013-02-21 10:52:01"
+        },
+        {
+            "name": "raven/raven",
+            "version": "0.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/getsentry/raven-php.git",
+                "reference": "0.5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/getsentry/raven-php/zipball/0.5.1",
+                "reference": "0.5.1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "bin": [
+                "bin/raven"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Raven_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "David Cramer",
+                    "email": "dcramer@gmail.com"
+                }
+            ],
+            "description": "A PHP client for Sentry (http://getsentry.com)",
+            "homepage": "http://getsentry.com",
+            "keywords": [
+                "log",
+                "logging"
+            ],
+            "time": "2013-02-19 21:45:36"
         },
         {
             "name": "sofadesign/limonade",
