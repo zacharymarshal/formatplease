@@ -56,14 +56,14 @@
       link = $('<a />').attr({
         'href': download_url,
         'target': '_blank',
-        'class': 'button red'
+        'class': 'btn btn-large btn-danger'
       }).html('<i class="icon-download"></i> Download');
       link_input = $('<input />').attr({
         'value': download_url,
         'class': 'fp-download_link_input'
       });
       format_button_loading.html('');
-      format_button.removeClass('green');
+      format_button.removeClass('btn-primary');
       format_button_message.html('Format Again');
       format_button.prop('disabled', false);
       $('#fp-paper-download').html("" + (link.prop('outerHTML')) + "<br /><br /><i class=\"icon-link\"></i> " + (link_input.prop('outerHTML')) + "		");
