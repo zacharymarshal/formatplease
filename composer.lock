@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dflydev/dflydev-markdown.git",
-                "reference": "v1.0.2"
+                "reference": "2a1b3516bd5af6e722b40ae9e1fccd03e1772060"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/dflydev/dflydev-markdown/zipball/v1.0.2",
-                "reference": "v1.0.2",
+                "url": "https://api.github.com/repos/dflydev/dflydev-markdown/zipball/2a1b3516bd5af6e722b40ae9e1fccd03e1772060",
+                "reference": "2a1b3516bd5af6e722b40ae9e1fccd03e1772060",
                 "shasum": ""
             },
             "require": {
@@ -57,7 +57,7 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2012-01-15 19:36:37"
+            "time": "2012-01-16 03:36:37"
         },
         {
             "name": "mustangostang/spyc",
@@ -65,12 +65,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mustangostang/spyc.git",
-                "reference": "0.5.1"
+                "reference": "dc4785b4d7227fd9905e086d499fb8abfadf9977"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mustangostang/spyc/zipball/0.5.1",
-                "reference": "0.5.1",
+                "url": "https://api.github.com/repos/mustangostang/spyc/zipball/dc4785b4d7227fd9905e086d499fb8abfadf9977",
+                "reference": "dc4785b4d7227fd9905e086d499fb8abfadf9977",
                 "shasum": ""
             },
             "require": {
@@ -112,12 +112,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/raven-php.git",
-                "reference": "0.5.1"
+                "reference": "cf3505369911d8f4ce3eb59dc9e1baba29cf72cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/raven-php/zipball/0.5.1",
-                "reference": "0.5.1",
+                "url": "https://api.github.com/repos/getsentry/raven-php/zipball/cf3505369911d8f4ce3eb59dc9e1baba29cf72cf",
+                "reference": "cf3505369911d8f4ce3eb59dc9e1baba29cf72cf",
                 "shasum": ""
             },
             "require": {
@@ -159,12 +159,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sofadesign/limonade.git",
-                "reference": "056f7d2ad9b49bb91733e97aff4549adaee595df"
+                "reference": "7b0f57b770f261d3f67a671ab5c7aab68b3fdceb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sofadesign/limonade/zipball/056f7d2ad9b49bb91733e97aff4549adaee595df",
-                "reference": "056f7d2ad9b49bb91733e97aff4549adaee595df",
+                "url": "https://api.github.com/repos/sofadesign/limonade/zipball/7b0f57b770f261d3f67a671ab5c7aab68b3fdceb",
+                "reference": "7b0f57b770f261d3f67a671ab5c7aab68b3fdceb",
                 "shasum": ""
             },
             "type": "library",
@@ -179,7 +179,7 @@
             "keywords": [
                 "microframework"
             ],
-            "time": "2013-04-15 12:25:42"
+            "time": "2014-02-25 09:04:45"
         }
     ],
     "packages-dev": [
